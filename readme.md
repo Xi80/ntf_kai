@@ -26,6 +26,8 @@ Developer Command Promptを開き
 とすると、buildディレクトリに`ntf_kai.exe`ができます。
 あとは煮るなり焼くなりお好きに。
 
+ものぐさな人のために[ビルドしたもの](https://github.com/Xi80/ntf_kai/releases/tag/Release)もありますが無保証です、一応動きました。
+
 ## ライセンス
 
 以下、元のntfのライセンスです。
