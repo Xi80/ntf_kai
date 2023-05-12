@@ -14,14 +14,14 @@
 
 ## ビルドの仕方
 
-VisualStudio2022とcmakeが入っている前提で説明します。
-また、nmakeを使用するものとします。
+VisualStudio2022とcmake,Ninjaが入っている前提で説明します。
+また、ビルドにはNinjaを使用するものとします。
 
 Developer Command Promptを開き
 ```winbatch
-> cmake -S . -B build -G "NMake Makefiles"
+> cmake -S . -B build -G "Ninja" -DCMAKE_BUILD_TYPE=MinSizeRel
 > cd build
-> nmake
+> ninja
 ```
 とすると、buildディレクトリに`ntf_kai.exe`ができます。
 あとは煮るなり焼くなりお好きに。
